@@ -14,3 +14,17 @@ https://changelog.zackproser.com is live!
 - Soon, I'll be launching my digitial school at https://zackproser.com/learn, so tracking ongoing additions, new courses 
 and other improvements made there will become key to demonstrating ongoing value.
 
+---
+
+## Relentless image optimization with .webp {{ date: '2024-01-31T00:00Z' }}
+
+I converted every .jpeg, .jpg and .png file on my site to .webp, for a 76% reduction in file size for my 
+`src/images` folder, from 377MB to 78MB.
+
+### <SparkleIcon /> Why? 
+
+- The .webp format now enjoys [broad browser support](https://caniuse.com/webp)
+- It is capable of aggressive compression without noticeable image quality loss
+- It plays nicely with Next.js's Image component
+- It should improve my site performance a good deal, given that previously I was shipping gigantic .pngs and .jpgs
+
