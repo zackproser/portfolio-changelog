@@ -49,22 +49,22 @@ export function Intro() {
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        Open-source Git client{' '}
-        <span className="text-sky-300">for macOS minimalists</span>
+        zackproser.com{' '}
+        <span className="text-sky-300">my portfolio, blog and digital school</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        Commit is a lightweight Git client you can open from anywhere any time
-        you’re ready to commit your work with a single keyboard shortcut. It’s
-        fast, beautiful, and completely unnecessary.
+        https://zackproser.com is my home on the web, and this changelog tracks
+        the ongoing improvements, new content, features and enhancements I make to it.
       </p>
       <SignUpForm />
       <div className="mt-8 flex flex-wrap justify-center gap-x-1 gap-y-3 sm:gap-x-2 lg:justify-start">
-        <IconLink href="#" icon={BookIcon} className="flex-none">
-          Documentation
+        <IconLink href="https://github.com/zackproser/portfolio" icon={GitHubIcon} className="flex-none">
+          Portfolio site
         </IconLink>
-        <IconLink href="#" icon={GitHubIcon} className="flex-none">
-          GitHub
+        <IconLink href="https://github.com/zackproser/portfolio-changelog" icon={GitHubIcon} className="flex-none">
+          Changelog site
         </IconLink>
+
         <IconLink href="/feed.xml" icon={FeedIcon} className="flex-none">
           RSS
         </IconLink>
@@ -77,8 +77,8 @@ export function IntroFooter() {
   return (
     <p className="flex items-baseline gap-x-2 text-[0.8125rem]/6 text-gray-500">
       Brought to you by{' '}
-      <IconLink href="#" icon={XIcon} compact>
-        Joe Davola
+      <IconLink href="https://twitter.com/zackproser" icon={XIcon} compact>
+        Zack Proser
       </IconLink>
     </p>
   )
