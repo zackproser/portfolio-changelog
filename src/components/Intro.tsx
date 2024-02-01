@@ -45,15 +45,15 @@ export function Intro() {
     <>
       <div>
         <Link href="/">
-          <Logo className="inline-block h-8 w-auto" />
+          <Logo />
         </Link>
       </div>
       <h1 className="mt-14 font-display text-4xl/tight font-light text-white">
-        zackproser.com{' '}
+        <Link href="https://zackproser.com">zackproser.com</Link>{' '}
         <span className="text-sky-300">my portfolio, blog and digital school</span>
       </h1>
       <p className="mt-4 text-sm/6 text-gray-300">
-        https://zackproser.com is my home on the web, and this changelog tracks
+        <Link href="https://zackproser.com">zackproser.com</Link> is my home on the web, and this changelog tracks
         the ongoing improvements, new content, features and enhancements I make to it.
       </p>
       <SignUpForm />
