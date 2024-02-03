@@ -1,6 +1,35 @@
+export { Layout as default } from '@/components/Layout'
 import { SparkleIcon } from '@/components/SparkleIcon'
 
-export { Layout as default } from '@/components/Layout'
+---
+
+## Digital purchase infrastructure for Zachary Proser's School for Hackers {{ date: '2024-02-02T00:00Z' }}
+
+![](@/images/example-checkout.webp)
+
+After several months of work, I've released my digital purchasing infrastructure to production. 
+
+This integration includes Stripe for payment processing, a full course catalog with support for different course 
+statuses: 
+
+- Available (can be purchased and started)
+- In-progress (I'm actively building this course)
+- Coming soon
+
+![](@/images/zp-courses.webp)
+
+It also includes a user authentication system leveraging next-auth and GitHub oAuth to allow students to sign into 
+my school, purchase and take courses.
+
+### <SparkleIcon /> It's an exciting time!
+
+After several months of on and off work, I've: 
+* Upgraded my Next.js site to use the latest /app router
+* Added a complete Stripe integration 
+
+setting the groundwork for my first courses to be published!
+
+Stay tuned!
 
 ---
 
@@ -27,4 +56,3 @@ I converted every .jpeg, .jpg and .png file on my site to .webp, for a 76% reduc
 - It is capable of aggressive compression without noticeable image quality loss
 - It plays nicely with Next.js's Image component
 - It should improve my site performance a good deal, given that previously I was shipping gigantic .pngs and .jpgs
-
